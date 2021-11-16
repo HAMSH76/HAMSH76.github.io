@@ -1,0 +1,69 @@
+html {
+	background-image: url('homepage.jpeg');
+	background-size: cover;
+	background-color: #cccccc;
+	font-family: "Menlo", "Meslo LG", monospace;
+	background-position: top;
+	background-repeat: no-repeat;
+
+}
+
+
+h1	{
+	color: #3AE8AA;
+	font-family: Menlo;
+	text-align: center;
+	display: block;
+	margin-top: 340px;
+	font-size: 30px;
+	opacity: 0.6;
+	-webkit-transform: rotate(-20deg);
+}
+
+.clock {
+    position: absolute;
+    top: 4%;
+    left: 40%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #3AE8AA;
+    font-size: 40px;
+    font-family: 'Menlo';
+    letter-spacing: 15px;
+    opacity: 0.7;
+    margin-top: 60px;
+    -webkit-transform: rotate(10deg);
+}
+
+.yeah{
+	margin: 0px;
+}
+
+img:hover{
+	opacity: 0.5;
+	transition: 0.4s;
+}
+
+.logos {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#images{
+	text-align: center;
+	margin-top: 250px;
+	opacity: 0.7;
+	transform: rotate(20deg);
+}
+
+.box	{
+	margin-bottom: 20px;
+	color: #3AE8AA;
+	-webkit-transform: rotate(20deg);
+}
+
+
+a:visited{
+	text-decoration: none; 
+ 	color: #3AE8AA; 
+}
