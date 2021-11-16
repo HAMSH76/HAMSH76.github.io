@@ -1,0 +1,74 @@
+html {
+	background-image: url('homepage5.jpeg');
+	background-position: center;
+	font-family: "Menlo", "Meslo LG", monospace;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:100%;
+	background-color: #E8775D;
+
+
+
+}
+
+
+h1	{
+	color: #80408F;
+	font-family: Menlo;
+	text-align: center;
+	display: block;
+	margin-top: 340px;
+	margin-left: 1050px;
+	font-size: 40px;
+	opacity: 0.4;
+	-webkit-transform: rotate(-20deg);
+}
+
+.clock {
+    position: absolute;
+    top: 4%;
+    left: 70%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #80408F;
+    font-size: 40px;
+    font-family: 'Menlo';
+    letter-spacing: 15px;
+    opacity: 0.7;
+    margin-top: 60px;
+    -webkit-transform: rotate(10deg);
+}
+
+.yeah{
+	margin: 0px;
+}
+
+img:hover{
+	opacity: 0.5;
+	transition: 0.4s;
+}
+
+.logos {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#images{
+	text-align: center;
+	margin-left: 1000px;
+	margin-top: 250px;
+	opacity: 0.7;
+	transform: rotate(20deg);
+}
+
+.box	{
+	margin-bottom: 20px;
+}
+
+p{
+	font-family: Menlo;
+	size: 50px;
+	text-align: center;
+	color: #cccc;
+	margin-top: 250px;
+}
